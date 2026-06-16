@@ -5,7 +5,12 @@ results = pd.read_csv("results.csv", parse_dates=["date"])
 COMPETIONS = [
     'FIFA World Cup', 'UEFA Euro',
     'African Cup of Nations', 'AFC Asian Cup', 'CONCACAF Series', 'Gold Cup',
-    'Copa América', 'Oceania Nations Cup'
+    'Copa América', 'Oceania Nations Cup', 'FIFA World Cup qualification',
+    'UEFA Euro qualification',
+    'African Cup of Nations qualification',
+    'AFC Asian Cup qualification',
+    'CONCACAF Gold Cup qualification',
+    'Copa América qualification',
 ]
 
 MIN_DATE = pd.Timestamp("2022-11-20")
